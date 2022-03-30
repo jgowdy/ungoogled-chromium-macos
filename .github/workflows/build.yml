@@ -11,6 +11,8 @@ on:
       - '!LICENSE'
       - '!devutils/**'
       - '.github/scripts/force_build.txt'
+    branches:
+      - 'release/*'
   pull_request:
     paths:
       - 'patches/**'
